@@ -1,8 +1,84 @@
 /* styles.css */
 
-.ih1 {
+h2 {
+    color: #ffa600;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #69480a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+ol {
+    display: inline-block;
+    background: #fff0cf;
+    padding: 20px;
+  }
+  
+
+ol li {
+    background: #fffbd8;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+    counter-increment: steps;
+  }
+
+.recipes-ul {
+    display: inline-block;
+    background: #9ce4cc;
+    padding: 20px;
+  }
+
+.recipes-ul > li {
+    background: #dafaea;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+    counter-increment: steps;
+  }
+
+header {
+    margin-top: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+header > img {
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    box-shadow: rgba(1, 1, 2, 0.84) 2px 2px 8px 0px;
+  }
+
+header > h1 {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border: 1px solid #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  }
+
+.index-h1 {
     color: #999999;
-    font-family: arial, sans-serif;
+    font-family: Garamond, serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -10,7 +86,7 @@
     margin-bottom: 1px;
 }
 
-.iul {
+.index-ul {
     box-sizing: border-box;
     list-style: none;
     margin: 0 auto;
@@ -18,7 +94,7 @@
     max-width: 480px;
   }
 
-.iul > li {
+.index-ul > li {
     background-color: #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
@@ -27,7 +103,7 @@
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
   }
 
-.iul > li > a {
+.index-ul > li > a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,3 +116,4 @@ a {
     color: black;
     text-decoration: none;
   }
+  
